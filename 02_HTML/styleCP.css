@@ -1,0 +1,83 @@
+header{
+    background-color: rgb(104, 103, 172);
+    border: 5px;
+    width: 1225px;
+    height: 200px;
+    border-radius: 10px;
+}
+#logo{
+    background-color: rgb(206, 123, 176);
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin: 5px;
+}
+
+nav{
+    background-color: rgb(162, 103, 172);;
+    width: 250px;
+    height: 650px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+section{
+    background-color: rgb(162, 103, 172);
+    width: 450px;
+    height: 650px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#galactico{
+    background-color: rgb(206, 123, 176);
+    width: 440px;
+    height: 180px;
+    float: left;
+    margin: 5px;
+}
+
+#rainbow{
+    background-color:  rgb(206, 123, 176);
+    width: 440px;
+    height: 180px;
+    float: left;
+    margin: 5px;
+}
+
+
+aside{
+    background-color: rgb(162, 103, 172);
+    width: 500px;
+    height: 650px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#system{
+    background-color: rgb(206, 123, 176);
+    width: 440px;
+    height: 180px;
+    float: left;
+    margin: 5px;
+}
+
+#base{
+background-color: rgb(206, 123, 176);
+width: 440px;
+height: 180px;
+float: left;
+margin: 5px;
+}
+
+footer{
+    background-color: rgb(255, 188, 209);
+    width: 1225px;
+    height: 300px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}

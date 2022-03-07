@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido</title>
+        <link rel="stylesheet" href="styleCP.css">
+    </head>
+    <body>
+        <main>
+                <header>
+                    <center>
+                    <h1 style="display: inline-block;">Cupcake Planet
+                        <img src="/imagenes/Add a heading.png" alt="" height="80px" width="80px" style="right: 400%;">
+                    </h1>
+                    <h2>Haz tu pedido, y comparte un poco del universo en cada bocado</h2>
+                    </center>
+                </header>
+
+            <nav>
+                <center>
+                    <h4>Dejannos tus datos para comunicarnos contigo <br> y hacer tu pedido a la perfeccion</h4>
+                </center>
+                <ul>
+                    <li>Nombre: <br>
+                        <input type="text"></li>
+                        <br>
+                    <li>Telefono: <br> 
+                        <input type="number" maxlength="10"></li>
+                        <br>
+                    <li>Correo: <br>
+                        <input type="email"></li>
+                        <br>
+                    <li>Fecha de entrega: <br>
+                        <input type="date"></li>
+                </ul>
+                
+            </nav>
+
+            <section>
+
+                <ol>
+                    <center>
+                    <h3>¡Arma tu pedido!</h3>
+                    </center>
+                    <ul><h5>Sabor de la base del pastel</h5>
+                        <li><input type="checkbox" value="Chocolate">Chocolate</li>
+                        <li><input type="checkbox" value="Vainilla">Vainilla</li>
+                        <li><input type="checkbox" value="Capuchinno">Capuchinno</li>
+                    </ul>
+                    
+
+                    <ul><h5>Elige el relleno que quieras</h5>
+                        <li><input type="checkbox" value="Chocolate">Fresas con crema</li>
+                        <li><input type="checkbox" value="Vainilla">3 leches</li>
+                        <li><input type="checkbox" value="Capuchinno">Mermelada (fresa)</li>
+                        <li><input type="checkbox" value="Capuchinno">Mermelada (moras)</li>
+                    </ul>
+
+                    <ul><h5>Adornos</h5>
+                        <li><input type="checkbox" value="Alien">Alien y OVNI</li>
+                        <li><input type="checkbox" value="Nubes">Nubes de algodón de azúcar</li>
+                        <li><input type="checkbox" value="Capuchinno">Planetas</li>
+                    </ul>
+
+                    <ul><h5>Pasteles especiales</h5>
+                        <li><input type="checkbox" value="Galaxia">Pastel Galáctico</li>
+                        <li><input type="checkbox" value="Galaxia">Pastel Rainbow Alien</li>
+                        <li><input type="checkbox" value="Galaxia">Pastel Sistema Solar</li>
+                    </ul>
+
+
+                </ol>
+            </section>
+
+            <aside>
+                <center>
+                    <h3>Confirma tu pedido</h3>
+                    <input type="button" onclick="alert('¡Pedido enviado!')" value="Confirmo que mi pedido es correcto">
+                   
+                </center>
+
+                <ol>
+                    <ul><h4>¡Añade a tu carrito y disfruta nuestros postres!</h4>
+
+                        <li>Pasteles</li>
+                        <input type="checkbox" value="Galaxia">Pastel Galáctico
+                        <input type="checkbox" value="Galaxia">Pastel Rainbow Alien
+                        <input type="checkbox" value="Galaxia">Pastel Sistema Solar
+                        <input type="checkbox" value="Galaxia">Pastel Base de Despegue
+                  
+                        <li>Macarrones galacticos</li>
+                        <input type="checkbox" value="Macarron10">Paquete de 10 piezas
+                        <input type="checkbox" value="Macarron20">Paquete de 20 piezas
+                        <input type="checkbox" value="Macarron30">Paquete de 30 piezas
+
+                        <li>Galaxy Dipped Strawberries</li>
+                        <input type="checkbox" value="Strawberry10">Paquete de 10 piezas
+                        <input type="checkbox" value="Strawberry20">Paquete de 20 piezas
+                        <input type="checkbox" value="Strawberry30">Paquete de 30 piezas
+
+                        <li>Cake Roll</li>
+                        <input type="checkbox" value="CakeRollS">Pequeño
+                        <input type="checkbox" value="CakeRollM">Mediano
+                        <input type="checkbox" value="CakeRollG">Grande
+
+                        <li>Donas glaseadas</li>
+                        <input type="checkbox" value="Donas5">Paquete de 5 piezas
+                        <input type="checkbox" value="Donas10">Paquete de 10 piezas
+                        <input type="checkbox" value="Donas20">Paquete de 20 piezas
+
+                        <li>Cupcake</li>
+                        <input type="checkbox" value="CupcakeF">Fresa
+                        <input type="checkbox" value="CupcakeCh">Chocolate
+                        <input type="checkbox" value="CupcakeV">Vainilla
+
+                        <li>Tiramisú</li>
+                        <input type="checkbox" value="TiramisuS">Paquete pequeño
+                        <input type="checkbox" value="TiramisuM">Paquete mediano
+                        <input type="checkbox" value="TiramisuG">Paquete grande
+
+                        <li>Cake Pop</li>
+                        <input type="checkbox" value="Cakepop5">Paquete de 5 piezas
+                        <input type="checkbox" value="Cakepop10">Paquete de 10 piezas
+                        <input type="checkbox" value="Cakepop20">Paquete de 20 piezas
+                    </ul>
+                </ol>
+
+            </aside>
+        </main>
+    </body>
