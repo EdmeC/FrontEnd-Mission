@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%; 
+    height: auto; 
+}
+
+/*header*/
+.header{
+    display:flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 18px 0px 16px;
+}
+
+.header-nav-menu{
+    position: relative; 
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav-menu li{
+    margin: 10px; 
+    list-style: none;
+    padding: 0px, 35px, 0px, 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gray
+}
+
+#header-logo{
+    color:blue;
+    font-size: large; 
+    font-weight: 700;
+    font-size: 2.5rem; 
+    padding-left: 30px
+}
+
+#hoax-button{
+    color: white;
+    background-color: blue ;
+    padding: 11px, 20px; 
+    border-radius: 5px;
+    box-shadow: 5px, 6px, 27px var(gray);
+    
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.texto-fight{
+    width: 55%;
+    padding: 100px;
+}
+
+.texto-fight h1{
+    color: blue;
+    font-size: 5.5rem; 
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+
+.texto-fight p{
+    color: gray;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 6px;
+}
+
+.enfermera{
+    width: 500px;
+    height: 550px;
+    position: relative;
+}
+
+.iconos{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 30px, 90px, 30px, 0px;
+    margin-left: 0px;
+}
+
+.shield-icono{
+    display:flex;
+}
+
+.icono-texto p{
+position: relative;
+font-size: 20px;
+font-weight: 600;
+color: blue;
+margin-right: 50px;
+}
+
+
+.agenda-vacuna{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px; 
+    left: 200px; 
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.966);
+    border-radius: 5px; 
+    padding: 22px 18px 22px; 
+}
+
+.agenda-vacuna p{
+    position: relative;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: blue; 
+    margin-right: 50px; 
+}
+
+.info-izquierda{
+    display: flex; 
+}
+
+.info-location, .info-date, .info-type{
+    display: flex; 
+}
+
+.info-izquierda p{
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: grey; 
+    margin-right: 50px;
+    padding-left: 40px;
+}
+
+.info-data{
+    display: flex;
+}
+
+.info-data p{
+    color: blue; 
+    font-weight: 900;
+    font-size: 1.7rem;
+    margin: 0px 5.7px 0px;
+    padding-left: 35px;
+    padding-top: 7px;
+}
+
+#Submit{
+    color: white;
+    background-color: blue;
+    padding: 11px 40px;
+    border-radius: 5px;
+    box-shadow: 1.3px 1px 27px;
+    text-decoration: none;
+    position: absolute;
+    left: 555px;
+    bottom: 25px;
+    font-weight: 600;
+    font-size: 1.56rem;
+}
+
+.main-brands{
+    display: flex; 
+    justify-content: space-around;
+    padding: 27px 0px 17px;
+    margin-top: 30px;
+    opacity: 0.4;
+}
+
+.main-reasons{
+    height: 720px;
+    width: 100%;
+    padding: 100px 100px 0px ;
+}
+
+.main-reasons-title h2{
+    font-size: 3rem;
+    color: blue; 
+}
+
+.main-reasons-title p{
+    color: grey; 
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.main-reasons-cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 12px;
+}
+.main-reasons-cards h4{
+    font-size: medium;
+    color: blue;
+    margin-top: 13px;
+}
+
+.main-reasons-cards p{
+    margin-top: 13px;
+    color: gray; 
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.reasons-one, .reasons-two, .reasons-three, .reasons-four{
+    border: solid rgba(220,220,220,0.315);
+    border-radius: 9px;
+    width: 240px;
+    height: 300px;
+    padding: 20px;
+}
+
+.main-preparations-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end;
+    height: 600px;
+}
+
+.preparations-right{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    height: 600px;
+    margin-bottom: 60px;
+}
+
+.prep-title{
+align-self: center;
+}
+
+.prep-title h2{
+color: blue; 
+font-size: 3rem;
+margin-top: 20px;
+}
+
+.prep-title p{
+    color: gray; 
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 23px 70px 30px 0px;
+}
+
+.prep-info{
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    padding: 12px 80px 0px;
+}
+
+.prep-cards h5{
+    color: blue;
+    font-size: medium;
+    display: inline-block;
+    margin-left:  9px;
+    font-weight: 600;
+}
+
+.prep-cards p{
+    color: gray;
+    font-size: medium;
+    padding-top: 6px;
+    padding-left: 39px;
+}
+
+.prep-cards-one, .prep-cards-two,
+.prep-cards-three, .prep-cards-four, 
+.prep-cards-five{
+    padding: 12px; 
+    border: solid rgba(220,220,220,0.315);
+    border-radius: 9px;
+    margin-bottom: 12px;
+}
+
+.emergency-info-right{
+    width: 45%;
+}
+
+.main-emergency{
+    padding: 12px;
+    margin-top: 150px;
+}
+
+.emergency-info{
+    padding: 12px;
+    display: flex;
+}
+
+.emergency-left{
+    width: 55%;
+}
+
+.emergency-title{
+    padding-left: 70px;
+}
+
+.emergency-title h2{
+    color: blue;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.emergency-title p{
+    color:gray; 
+    font-weight: 600;
+    font-size: medium;
+}
+
+.emergency-cards{
+    display:grid;
+    grid-template-columns: 30px 30px;
+    grid-template-rows: 30px 30px;
+    grid-row-gap: 245px;
+    height: 490px;
+    justify-content: end;
+    margin-top: 30px; 
+    margin-left: 30px;
+    width: 50%;
+}
+
+.emergency-one, .emergency-two,
+.emergency-three, .emergency-four{
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    padding: 30px;
+    border: solid(220,220,220,0.315);
+    border-radius: 9px;
+    margin-bottom: 12px;
+}
+
+.one-down, .two-down, 
+.three-down, .four-down{
+    width: auto;
+    margin-top: 25px;
+    color: blue;
+    background-color: darkblue;
+    padding: 11px 20px; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.emergency-cards h5{
+    display: inline-block;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.emergency-cards p{
+    font-size: small;
+    color:grey; 
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+.emergency-cards a{
+    text-decoration: none;
+}
+
+#emergency-option{
+    text-align: center;
+    font-size: 1.56rem;
+    font-weight: 600;
+    color: blue;
+}
+
+footer{
+    padding: 5px;
+    margin-top: 90px;
+    width: 100%;
+    
+}
+
+.sections-up--info{
+    display: flex;
+    padding: 30px;
+    background-color: var(--faded-blue);
+    height: 140px;
+}
+
+
+
+
+.footer-sections-down{
+    /* border: solid aqua; */
+    background-color: var(--faded-blue);
+    display: flex;
+    justify-content: space-around;
+}
+
+address{
+    justify-content: flex-end;
+    color: var(--Text-gray);
+    font-weight: 600;
+    font-size: small;
+}
+
+
+
+.up-info--one{
+    width: 33%;
+}
+.up-info--two{
+    width: 33%;
+}
+.up-info--two{
+    width: 33%;
+}
+
+.sections-up--info h6{
+    color: var(--mainTitle-blue);
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.sections-up--info p{
+    font-size: small;
+    color: var(--Text-gray);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.info-three-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.footer-about,
+.footer-company,
+.footer-support{
+    width: 170px;
+    justify-content: space-between;
+    align-content: space-between;
+}
